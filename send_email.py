@@ -12,7 +12,6 @@ def send_email(message):
 
     username = os.getenv("EMAIL_USERNAME")
     password = os.getenv("EMAIL_PASSWORD")
-    print(username, password)
     receiver = os.getenv("RECEIVER_EMAIL")
     context = ssl.create_default_context()
 
